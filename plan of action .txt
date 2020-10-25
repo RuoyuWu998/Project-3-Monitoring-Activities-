@@ -1,0 +1,13 @@
+project 3: Plan for Action 
+
+I'll read the log file line by line by python and create a list containing all lines in the log file. To be specific, I can create a list and each element of it is a line in the log file which is another list containing date, time, activity, server and user email ID. 
+
+To make everything more organized, I'll sort the list by name, date and time. In that way, the same person's activity in a day will be listed together.
+
+A function will be defined for each insight required including suspicious activities, irresponsible behavior, system glitch and domain count. Thus, there will be 5 functions in total ( not including the extra credit insight).
+
+For the suspicious activities, I need to check if a person log in more than 5 times in a single day or log in between 12:00 am to 5:00 am.
+
+For the irresponsible behavior and system glitch, I need to check whether the number of log in matches the number of log out for a person in a single day. Counting the number of log in is also useful to find the suspicious activities. I'll create a list for each person. Each element in that list contains the number of log in and the number of log out for that person in a single day.
+
+To count domains, the first step is to make a list containing emails. The next step is to get rid of repeated emails. Then put all domains in a list and count the number of each domain using dictionary.
