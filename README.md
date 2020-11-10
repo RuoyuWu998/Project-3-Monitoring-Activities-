@@ -12,7 +12,7 @@ If any user logs into any of the systems more than 5 times in a single day, or i
 Count the total login and logout number of each user in each day. If the number of login> logout, record the activites as irresponsible behaviors. Record all information in days with irresponsible behaviors. If the number of logout>login, record the activities as glitches.Record all information in days with glitch. Write a txt file to record irresponsible behavior and another txt file to record glitches.
 #### Domain Count
 Create a disctionary with unique emails and convert it to a list containing only the domains of the emails. Count the number of each domain and create a dictionary invloves domain name and the number of time it appears in the list I mentioned before which is a list of all the unique domains and the number of users registered within each domain. Write a txt file to record the information.
-### Laziness 
+#### Laziness 
 If any user logs into any of the system less than twice in a single day and the number of login = logout, record the activities as " laziness". Count the number of login and logout. Record all information in days with laziness. Write a txt file to record the information.
 ### 3 different errors that you faced while completing this project
 1, When writing a long project, I sometimes forget to run the code at the very beginning (for example code in the first cell) and directly run the code in the middle. An error will show up and say specific variable is undefined. To solve that problem, run everything from the beginning step by step.
