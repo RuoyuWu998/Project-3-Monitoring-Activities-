@@ -18,3 +18,8 @@ If any user logs into any of the system less than twice in a single day and the 
 1, When writing a long project, I sometimes forget to run the code at the very beginning (for example code in the first cell) and directly run the code in the middle. An error will show up and say specific variable is undefined. To solve that problem, run everything from the beginning step by step.
 2, When using many loops in a project, an error called "unexpected indentation" appears. To solve that problem, check if the code has correct indentation for each loop and conditional statement. 
 3, The error says what I want to print exceed the limit of the notebook. In that case, I should check if I wrote an infinte loop.
+### The flowcharts are updated 
+1, Before reporting any behavior, I create a dictionary containing all information. 
+2, For Suspicious Activity, Irresponsible Behavior and Glitch I use dictionary instead of list and tuple. 
+3, I add "Laziness" for extra credit.
+4, The flowchart for Domain Count is unchanged.
